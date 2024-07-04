@@ -5,11 +5,11 @@ variable "sg_id" {
 
 variable "subnets" {
     description = "subnets for alb"
-    typr = list(string  )
+    type = list(string  )
 }
 
 variable "vpc_id" {
     description = "vpc ID for alb"
-    typr = string
+    type = string
 }
 

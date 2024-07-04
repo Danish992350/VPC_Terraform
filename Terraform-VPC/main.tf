@@ -5,7 +5,7 @@ module "vpc" {
 }
 
 module "sg" {
-    source = "./modules/sd"
+    source = "./modules/sg"
     vpc_id = module.vpc.vpc_id
 }
 

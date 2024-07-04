@@ -8,7 +8,7 @@ variable "subnets" {
     type = list(string)
 }
 
-variables "ec2_names"{
+variable "ec2_names"{
     description = "ec3 names"
     type = list(string)
     default = ["webserver1", "webserver2"]
